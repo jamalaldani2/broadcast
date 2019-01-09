@@ -1,9 +1,9 @@
  
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "V";
+const prefix = "-";
 client.on("message", message => {
-    var prefix ="V";
+    var prefix ="-";
         if (message.author.id === client.user.id) return;
         if (message.guild) {
        let embed = new Discord.RichEmbed()
